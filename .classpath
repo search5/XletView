@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.3"/>
+	<classpathentry kind="lib" path="jars/javassist.jar"/>
+	<classpathentry kind="lib" path="JMF2.1.1/lib/jmf.jar"/>
+	<classpathentry kind="lib" path="jars/looks-2.3.1.jar"/>
+	<classpathentry kind="lib" path="jars/metouia.jar"/>
+	<classpathentry kind="lib" path="jars/nanoxml-2.2.3.jar"/>
+	<classpathentry kind="lib" path="jars/synthetica.jar"/>
+	<classpathentry kind="lib" path="JMF2.1.1/lib/customizer.jar"/>
+	<classpathentry kind="lib" path="JMF2.1.1/lib/multiplayer.jar"/>
+	<classpathentry kind="lib" path="src/lib/ocap.zip"/>
+	<classpathentry kind="lib" path="src/lib/release.zip"/>
+	<classpathentry kind="lib" path="src/lib/alticast-lrpp-client-3.0e.jar"/>
+	<classpathentry kind="lib" path="src/lib/classes_app_070507.zip"/>
+	<classpathentry kind="lib" path="src/lib/hcn_spi_stub_20090408.zip"/>
+	<classpathentry kind="lib" path="src/lib/Jeju_stub_20061115.zip"/>
+	<classpathentry kind="lib" path="src/lib/Jeju_stub_for_all_20070803.zip"/>
+	<classpathentry kind="lib" path="src/lib/MA ixc stub_20071205.zip"/>
+	<classpathentry kind="lib" path="src/lib/navsuite_stub_20061219.zip"/>
+	<classpathentry kind="lib" path="src/lib/vbm_interface_20071211.zip"/>
+	<classpathentry kind="lib" path="jars/javatv.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

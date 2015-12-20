@@ -1,0 +1,29 @@
+#Mind that paths can not contain backslash
+#Make sure there are no spaces after the values
+
+console.font=Helvetica
+console.fontsize=10
+console.height=200
+console.show=false
+console.width=500
+console.x=0
+console.y=0
+extra.classpath=lib/ocap.zip;lib/javatv.jar;lib/Jeju_stub_for_all_20070803.zip;lib/navsuite_stub_20061219.zip;lib/kocap_extended_api_stub_20071122.zip;lib/MA ixc stub_20071205.zip;lib/release.zip;lib/vbm_interface_20071211.zip;lib/classes_app_070507.zip;lib/cj_pvr_extended_API.zip;lib/kctv-jeju-hotel-logo-client-stub-v1.1.jar;lib/alticast-lrpp-client-3.0e.jar
+file.applications=src/config/applications.xml 
+file.defaultbg=config/GrassBlades_720.jpg
+file.settings=config/settings.txt
+user.settings=config/userSettings.txt
+font.sizeoffset=-2
+path.config=config
+remote.show=false
+safearea.color=#ffeeaa
+safearea.height=430
+safearea.show=false
+safearea.width=640
+safearea.x=40
+safearea.y=25
+tv.center=true
+tv.screenheight=540
+tv.screenwidth=960
+tv.x=0
+tv.y=0

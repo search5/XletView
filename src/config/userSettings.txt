@@ -1,0 +1,4 @@
+#macAddress=3C:62:00:93:44:fe
+macAddress=00:11:22:33:44:55
+#macAddress=20:d5:bf:ed:e5:dc
+isSVODPackageSubscribed=true

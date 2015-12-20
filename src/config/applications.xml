@@ -1,0 +1,9 @@
+<APPLICATIONS>
+    <GROUP NAME="new group 0">
+        <APPLICATION>
+            <NAME>new app 0</NAME>
+            <PATH>K:\project\HCN_UHD_HD\bin</PATH>
+            <XLET>com.castis.VODClient</XLET>
+        </APPLICATION>
+    </GROUP>
+</APPLICATIONS>
