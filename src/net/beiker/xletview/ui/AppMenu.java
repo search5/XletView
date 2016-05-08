@@ -18,9 +18,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.util.Vector;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.KeyStroke;
+import javax.swing.*;
 
 import net.beiker.xletview.app.App;
 import net.beiker.xletview.app.AppGroup;
@@ -52,7 +50,7 @@ public class AppMenu extends JMenu implements ActionListener{
     public void update(){
         buildAppMenu();
     }
-    
+
     private void buildAppMenu(){
         JMenuItem menuItem;
         
@@ -73,7 +71,7 @@ public class AppMenu extends JMenu implements ActionListener{
         menuItem.setActionCommand("config");
         menuItem.addActionListener(this);        
         add(menuItem);
-        
+
         addSeparator();
         
         menuItem = new JMenuItem("Reload Current");        
@@ -90,22 +88,22 @@ public class AppMenu extends JMenu implements ActionListener{
     }
  
   private JMenu buildAppMenu(JMenu menu, AppGroup group){
-      AppMenuItem item;        
+      AppMenuItem item;
       JMenu submenu;
       Vector subGroups = group.getSubGroups();
       for(int i = 0; i < subGroups.size(); i++){
           AppGroup subGroup = (AppGroup)subGroups.get(i);
           submenu = new JMenu(subGroup.getName());
-          submenu.setIcon(Constants.ICON_FOLDER);        
+          submenu.setIcon(Constants.ICON_FOLDER);
           menu.add(submenu);
           buildAppMenu(submenu, subGroup);
-          //menu.addSeparator();            
+          //menu.addSeparator();
       }
       Vector apps = group.getApps();
 //      if(apps.size() > 0){
 //        menu.addSeparator();
 //      }
-      
+
       for (int i = 0; i < apps.size(); i++) {
           App app = (App) apps.get(i);
           item = new AppMenuItem(app);
@@ -118,7 +116,7 @@ public class AppMenu extends JMenu implements ActionListener{
           menu.add(emptyItem);
       }
       return menu;
-  }   
+  }
 //    private void buildAppMenu(AppGroup group){
 //        Debug.write(this, group.getName());
 //        AppMenuItem item;        

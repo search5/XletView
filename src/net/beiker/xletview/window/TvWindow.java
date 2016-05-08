@@ -43,6 +43,7 @@ import net.beiker.xletview.media.ScreenContainer;
 import net.beiker.xletview.remotecontrol.RemoteControl;
 import net.beiker.xletview.ui.AppMenu;
 import net.beiker.xletview.ui.AppMenuItem;
+import net.beiker.xletview.ui.CastisMenu;
 import net.beiker.xletview.ui.CenterLayout;
 import net.beiker.xletview.util.Constants;
 import net.beiker.xletview.util.Debug;
@@ -200,6 +201,7 @@ public class TvWindow extends JFrame implements ActionListener {
 
         menuBar = new JMenuBar();
 
+/*
         menu = new JMenu("Menu");
 
 //        menuItem = new JMenuItem("About");
@@ -209,10 +211,11 @@ public class TvWindow extends JFrame implements ActionListener {
 
         menuItem = new JMenuItem("Exit");
         menuItem.setActionCommand("exit");
-        menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F4,KeyEvent.ALT_DOWN_MASK)); 
+        menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F4,KeyEvent.ALT_DOWN_MASK));
         menuItem.addActionListener(this);
         menu.add(menuItem);
         menuBar.add(menu);
+*/
 
 //        menu = new JMenu("View");
 //
@@ -225,7 +228,7 @@ public class TvWindow extends JFrame implements ActionListener {
         menu = AppMenu.getInstance();
         
         menuBar.add(menu);
-
+        menuBar.add(new CastisMenu());
         this.setJMenuBar(menuBar);
     }
 
